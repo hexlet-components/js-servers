@@ -1,0 +1,13 @@
+#!/usr/bin/env babel-node
+
+import debug from 'debug';
+import servers from '../src/index';
+
+const log = debug('hexlet-servers');
+
+const port = 4000;
+const serverName = process.argv[process.argv.length - 1];
+log(servers[serverName]);
+const server = servers[serverName](log)
+server.listen(4000);
+log(`server was started on localhost:${port}`);
