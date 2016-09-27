@@ -1,8 +1,8 @@
 # hexlet-servers
 
-[![Code Climate](https://codeclimate.com/github/hexlet-boilerplates/js-servers/badges/gpa.svg)](https://codeclimate.com/github/hexlet-boilerplates/javascript-package)
-[![Issue Count](https://codeclimate.com/github/hexlet-boilerplates/js-servers/badges/issue_count.svg)](https://codeclimate.com/github/hexlet-boilerplates/javascript-package)
-[![Build Status](https://travis-ci.org/hexlet-boilerplates/js-servers.svg?branch=master)](https://travis-ci.org/hexlet-boilerplates/javascript-package)
+[![Code Climate](https://codeclimate.com/github/hexlet-components/js-servers/badges/gpa.svg)](https://codeclimate.com/github/hexlet-components/js-servers)
+[![Issue Count](https://codeclimate.com/github/hexlet-components/js-servers/badges/issue_count.svg)](https://codeclimate.com/github/hexlet-components/js-servers)
+[![Build Status](https://travis-ci.org/hexlet-components/js-servers.svg?branch=master)](https://travis-ci.org/hexlet-components/js-servers)
 
 ## Setup
 
