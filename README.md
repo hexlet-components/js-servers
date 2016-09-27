@@ -1,8 +1,8 @@
-# javascript-package
+# hexlet-servers
 
-[![Code Climate](https://codeclimate.com/github/hexlet-boilerplates/javascript-package/badges/gpa.svg)](https://codeclimate.com/github/hexlet-boilerplates/javascript-package)
-[![Issue Count](https://codeclimate.com/github/hexlet-boilerplates/javascript-package/badges/issue_count.svg)](https://codeclimate.com/github/hexlet-boilerplates/javascript-package)
-[![Build Status](https://travis-ci.org/hexlet-boilerplates/javascript-package.svg?branch=master)](https://travis-ci.org/hexlet-boilerplates/javascript-package)
+[![Code Climate](https://codeclimate.com/github/hexlet-boilerplates/js-servers/badges/gpa.svg)](https://codeclimate.com/github/hexlet-boilerplates/javascript-package)
+[![Issue Count](https://codeclimate.com/github/hexlet-boilerplates/js-servers/badges/issue_count.svg)](https://codeclimate.com/github/hexlet-boilerplates/javascript-package)
+[![Build Status](https://travis-ci.org/hexlet-boilerplates/js-servers.svg?branch=master)](https://travis-ci.org/hexlet-boilerplates/javascript-package)
 
 ## Setup
 
@@ -10,20 +10,16 @@
 make install
 ```
 
-## Run
-
-```
-make start
-```
-
 ## Using
 
-### bin/server simple
-
 ```
+bin/server welcome
 curl localhost:4000
 ```
 
-### bin/server echo
+## Develop
 
+```
+make develop SERVER=welcome
+```
 
