@@ -11,10 +11,10 @@ export default (log: Log) => http.createServer((request, response) => {
 
   request
     .on('error', err => log(err))
-    .on('data', chunk => body.push(chunk))
+    .on('data', chunk => body.push(chunk.toString()))
     .on('end', () => {
       response.on('error', err => log(err));
-      const data = Buffer.concat(body).toString();
+      const data = body.join();
       response.end(data);
     });
 });
