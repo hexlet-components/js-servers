@@ -15,6 +15,10 @@ make install
 ```
 bin/server welcome
 curl localhost:4000
+
+bin/server echo
+curl localhost:4000
+curl -XPOST --data="post" localhost:4000
 ```
 
 ## Develop
