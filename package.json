@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "babel-node": "babel-node",
+    "nodemon": "nodemon",
     "develop": "nodemon --exec npm run babel-node -- bin/server $SERVER",
     "test": "mocha --compilers js:babel-core/register --colors",
     "gulp": "gulp",
